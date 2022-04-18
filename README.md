@@ -15,3 +15,8 @@ Steps to show work:
 6. Stop Kafka broker
 7. Stop ZooKeeper
 8. Delete data of local env `rm -rf /tmp/kafka-logs /tmp/zookeeper`
+
+## Лабораторна робота №2
+
+Написати код конс’юмера, що отримує потік даних, який генерується продюсером,
+та здійснює вибірку кортежів потоку для 1/10 всіх значень певного ключа.
