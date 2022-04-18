@@ -24,7 +24,7 @@ public class Main {
         for (int i = 0; i < 10000; i++) {
             var producerRecord = new ProducerRecord<>(
                     "my-topic",
-                    String.valueOf(i),
+                    faker.color().name(),
                     String.format("Pokemon %s from %s has been found!",
                             faker.pokemon().name(), faker.pokemon().location())
             );
