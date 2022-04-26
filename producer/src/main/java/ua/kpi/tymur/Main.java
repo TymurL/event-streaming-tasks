@@ -30,7 +30,11 @@ public class Main {
             );
             producer.send(producerRecord);
 
-            // For first lab delay can be 1 second.
+            /*
+             For first lab delay can be 1 second.
+             For second and third labs delay should be 10 milliseconds
+             as they do not consume all the records.
+             */
             Thread.sleep(1000);
         }
 
