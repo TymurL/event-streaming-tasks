@@ -10,9 +10,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>producer</module>
+        <module>producer-lab1</module>
         <module>consumer-lab2</module>
         <module>consumer-lab3</module>
+        <module>producer-lab4</module>
+        <module>consumer-lab4</module>
     </modules>
 
     <properties>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>producer</artifactId>
+    <artifactId>producer-lab1</artifactId>
 
     <!-- build jar with dependencies to easy run from command line -->
     <build>
