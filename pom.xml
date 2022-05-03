@@ -15,6 +15,8 @@
         <module>consumer-lab3</module>
         <module>producer-lab4</module>
         <module>consumer-lab4</module>
+        <module>consumer-lab5</module>
+        <module>producer-lab5</module>
     </modules>
 
     <properties>
